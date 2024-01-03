@@ -12,6 +12,12 @@
     <PackageReference Include="microsoft.data.sqlclient" Version="5.1.2" />
     <PackageReference Include="microsoft.entityframeworkcore" Version="6" />
     <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="6" />
+    <PackageReference Include="microsoft.extensions.configuration" Version="8.0.0" />
+    <PackageReference Include="microsoft.extensions.configuration.Json" Version="8.0.0" />
+
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

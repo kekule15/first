@@ -5,12 +5,25 @@ using System.Linq;
 using System.Threading.Tasks;
 using Dapper;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
 namespace first.data
 {
     public class DataContextDapper
     {
-        private string _connectionString = "Server=localhost;Database=TutorialAppSchema;Trusted_Connection=false;TrustServerCertificate=True;User Id=sa;Password=SQLConnect1;";
+
+       // private readonly IConfiguration _config;
+
+        private readonly string? _connectionString;
+
+        public DataContextDapper(IConfiguration config)
+        {
+
+            //_config = config;
+            _connectionString = config.GetConnectionString("DefaultConnection");
+
+        }
+
         public IEnumerable<T> LoadData<T>(string sql)
         {
 

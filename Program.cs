@@ -3,6 +3,7 @@ using Dapper;
 using first.data;
 using first.model;
 using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
 namespace first
 {
@@ -19,7 +20,11 @@ namespace first
 
             string sqlCommand = "SELECT GETDATE()";
 
-            DataContextDapper dataContextDapper = new();
+            IConfiguration config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+
+            DataContextDapper dataContextDapper = new(config);
+
+            DataContextEF dataContextEF = new(config);
 
             DateTime rightNow = dataContextDapper.LoadSingleDataa<DateTime>(sqlCommand);
 
@@ -58,9 +63,11 @@ namespace first
             //Console.WriteLine(result);
 
 
-            string sqlQuery = @" SELECT  
+            string sqlQuery = @" SELECT 
+                Computer.ComputerId, 
                 Computer.Motherboard,
                 Computer.HasWifi,
+                Computer.CPUCores,
                 Computer.HasLTE,
                 Computer.ReleaseDate,
                 Computer.Price,
@@ -69,14 +76,15 @@ namespace first
 
             Console.WriteLine(sqlQuery);
 
-            IEnumerable<Computer> computers = dataContextDapper.LoadData<Computer>(sqlQuery);
+            IEnumerable<Computer>? computers = dataContextEF.Computer?.ToList<Computer>();
 
-            foreach (var singleComputer in computers)
+            if (computers != null)
             {
-                Console.WriteLine(singleComputer.Motherboard);
+                foreach (var singleComputer in computers)
+                {
+                    Console.WriteLine(singleComputer.Motherboard);
+                }
             }
-
-
 
             // Console.WriteLine(newComputer.Motherboard);
         }
