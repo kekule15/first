@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2JR0XvQnERvskwMDITEVLgYWPsEtsoGpRIV8Zco94t4SB8Ql9K0k5tnNwZJ2dm/ggb5v5+BWJplqO1LdbyBcKw==",
+  "dgSpecHash": "/IoiJNCiWWvIrM80Y96lSxujHQgfVtZuiEyvJuxL8zmDQ/mfFb7vl7qEXJ5JZYNuzoZV7gl+XdFnHiNRXTms6Q==",
   "success": true,
   "projectFilePath": "/Users/augustusonyekachi/Documents/c#/first/first.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "/Users/augustusonyekachi/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/augustusonyekachi/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/system.configuration.configurationmanager/6.0.1/system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

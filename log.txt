@@ -1,0 +1,20 @@
+ SELECT 
+                Computer.ComputerId, 
+                Computer.Motherboard,
+                Computer.HasWifi,
+                Computer.CPUCores,
+                Computer.HasLTE,
+                Computer.ReleaseDate,
+                Computer.Price,
+                Computer.VideoCard
+            FROM TutorialAppSchema.Computer SELECT 
+                Computer.ComputerId, 
+                Computer.Motherboard,
+                Computer.HasWifi,
+                Computer.CPUCores,
+                Computer.HasLTE,
+                Computer.ReleaseDate,
+                Computer.Price,
+                Computer.VideoCard
+            FROM TutorialAppSchema.Computer
+
