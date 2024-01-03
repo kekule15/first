@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "/IoiJNCiWWvIrM80Y96lSxujHQgfVtZuiEyvJuxL8zmDQ/mfFb7vl7qEXJ5JZYNuzoZV7gl+XdFnHiNRXTms6Q==",
+  "dgSpecHash": "yqo9hdl2dxNHJ8NAhVt/+4LvrjWL6hR17iiju+2Rvut24nPkJ0br/lM8T0FdG8qGQFs59+NRW3ZREOCspq+vYA==",
   "success": true,
   "projectFilePath": "/Users/augustusonyekachi/Documents/c#/first/first.csproj",
   "expectedPackageFiles": [
+    "/Users/augustusonyekachi/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/dapper/2.1.28/dapper.2.1.28.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/augustusonyekachi/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/augustusonyekachi/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.data.sqlclient/5.1.2/microsoft.data.sqlclient.5.1.2.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.1/microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
     "/Users/augustusonyekachi/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
